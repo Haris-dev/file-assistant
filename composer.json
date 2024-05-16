@@ -13,14 +13,6 @@
         "chat",
         "files"
     ],
-    "homepage": "https://github.com/laravelailabs/file-assistant",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Adrian Tanase",
-            "email": "adrian@laravelailabs.com"
-        }
-    ], 
     "repositories": [
         {
             "type": "vcs",
@@ -84,16 +76,6 @@
             "php-http/discovery": true
         }
     },
-    "funding": [
-        {
-            "type": "Patreon",
-            "url": "https://patreon.com/AdrianTanase443"
-        },
-        {
-            "type": "Github",
-            "url": "https://github.com/sponsors/adrianmtanase"
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
