@@ -29,6 +29,7 @@ final class InterrogateFile extends InterrogateFileAbstract
                 ->query(
                     PineconeQueryRequest::build()
                         ->vector($embedding[0]->embedding)
+                        ->namespace($file->file_hash)
                 );
 
             return collect($vectorDatabaseResponse['matches'])
